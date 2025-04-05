@@ -1,0 +1,18 @@
+" Center screen after scrolling, with no delay
+nnoremap <C-d> <C-d>zz | redraw!
+nnoremap <C-u> <C-u>zz | redraw!
+
+" Center screen after searching
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap g* g*zz
+nnoremap g# g#zz
+
+" Center screen after using `/` search
+cnoremap <CR> <CR>zz
+
+set NERDTree
+set surround
+set multicursor
